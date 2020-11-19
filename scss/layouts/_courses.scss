@@ -1,0 +1,41 @@
+
+.courses{
+
+    & .course-heading{
+        font-size: 50px;
+        font-weight: 700;
+        color: black;
+
+    }
+    & .card{
+
+
+          @media screen and (max-width:576px){
+            width: 400px;
+            margin: 20px auto;
+        
+    }
+         & .card-title{
+        width: 100%;
+
+       
+    }
+
+     & .btn-custom{
+            color:black;
+            background:$btnColor ;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            width: 110px;
+            height: 40px;
+            border: none;
+        }
+
+        & .card-footer{
+            border: none;
+            background:#ffffff ;
+        }
+    }
+    
+}

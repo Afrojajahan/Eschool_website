@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.header {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background: #F0FFF0; }
+  .header .navbar-brand img {
+    width: 200px;
+    height: 80px; }
+  .header .nav-link {
+    font-size: 16px;
+    color: #56548c; }
+  .header .navbar-toggler {
+    color: black !important;
+    background: white; }
+  .header .header_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%); }
+    @media screen and (max-width: 576px) {
+      .header .header_wrapper {
+        top: 50%;
+        left: 60%; } }
+    .header .header_wrapper .header_content .heading-ready {
+      color: red;
+      font-size: 12px; }
+    .header .header_wrapper .header_content .main-heading, .header .header_wrapper .header_content .main-heading span {
+      font-size: 50px;
+      color: #000;
+      font-weight: bold; }
+      @media screen and (max-width: 576px) and (max-width: 768) {
+        .header .header_wrapper .header_content .main-heading, .header .header_wrapper .header_content .main-heading span {
+          font-size: 40px; } }
+      .header .header_wrapper .header_content .main-heading span {
+        color: #21B573; }
+    .header .header_wrapper .header_content .sub-heading {
+      color: #6C6B6B; }
+    .header .header_wrapper .header_content .btn-custom {
+      background: #21B573;
+      color: #FFFFFF;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: bold;
+      width: 150px;
+      height: 40px;
+      border: none; }
+
+.Illustration-img img {
+  width: 550px;
+  height: 250px;
+  padding-left: 185px; }
+  @media screen and (max-width: 576px) {
+    .Illustration-img img {
+      width: 400px;
+      height: 200px;
+      padding-left: 0px;
+      padding-top: 20px; } }
+  @media screen and (max-width: 992px) {
+    .Illustration-img img {
+      width: 400px; } }
+
+.categories {
+  background: #ffffff; }
+  .categories .card {
+    background: #F0FFF0;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    border: none; }
+    @media screen and (max-width: 576px) {
+      .categories .card {
+        width: 400px;
+        margin: 20px auto; } }
+    .categories .card img {
+      width: 100px;
+      height: 80px;
+      margin-bottom: 10px; }
+    .categories .card:hover {
+      box-shadow: 2px 2px .2px #efefef;
+      background: #ffffff; }
+
+.courses .course-heading {
+  font-size: 50px;
+  font-weight: 700;
+  color: black; }
+@media screen and (max-width: 576px) {
+  .courses .card {
+    width: 400px;
+    margin: 20px auto; } }
+.courses .card .card-title {
+  width: 100%; }
+.courses .card .btn-custom {
+  color: black;
+  background: #21B573;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 110px;
+  height: 40px;
+  border: none; }
+.courses .card .card-footer {
+  border: none;
+  background: #ffffff; }
+
+.testimonial .test-heading {
+  font-size: 50px;
+  font-weight: 700;
+  color: black; }
+.testimonial .test-details {
+  width: 700px;
+  margin: 0 auto; }
+  @media screen and (max-width: 576px) {
+    .testimonial .test-details {
+      width: 400px;
+      margin: 20px auto; } }
+  @media screen and (max-width: 992px) {
+    .testimonial .test-details {
+      width: 500px;
+      margin: 20px auto; } }
+  .testimonial .test-details img {
+    width: 150px;
+    height: 100px; }
+  .testimonial .test-details p {
+    font-size: 16px;
+    margin-left: 60px; }
+
+.footer {
+  background: #282531; }
+  .footer .footer_wrapper {
+    color: #FFFFFF; }
+    @media screen and (max-width: 576px) {
+      .footer .footer_wrapper {
+        margin: 50px auto; } }
+    .footer .footer_wrapper .footer-text {
+      margin-top: 70px; }
+      @media screen and (max-width: 576px) {
+        .footer .footer_wrapper .footer-text {
+          margin-bottom: 20px; } }
+    .footer .footer_wrapper p {
+      margin: 0; }
+  .footer .copyright {
+    font-size: 14px;
+    color: #B1B1B2;
+    margin-top: 50px; }
+
+/*# sourceMappingURL=main.css.map */

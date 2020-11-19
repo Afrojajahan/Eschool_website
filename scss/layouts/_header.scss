@@ -1,0 +1,92 @@
+.header{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background:#F0FFF0 ;
+   
+    & .navbar-brand img{
+        width: 200px;
+        height: 80px;
+    }
+    
+    & .nav-link{
+        font-size: 16px;
+        color:rgb(86, 84, 140);
+        
+    }
+
+    & .navbar-toggler {
+        color:black!important;
+        background: white;
+    }
+    & .header_wrapper{
+        position: absolute;
+        top: 50%;
+        left: 43%;
+        transform: translate(-50%,-50%);
+
+         @media screen and (max-width:576px){
+        
+            top: 50%;
+            left: 60%;
+        
+    }
+
+        & .header_content{
+
+            & .heading-ready{
+                color:red;
+                font-size: 12px;
+            }
+
+            & .main-heading{
+                font-size: 50px;
+                color:#000;
+                font-weight: bold;
+
+                 @media screen and (max-width:576px) and (max-width:768){
+
+                    font-size: 40px;
+                 }
+            
+                & span{
+                    color:$btnColor;
+                    @extend .main-heading ;}
+         }
+
+         & .sub-heading{
+             color:#6C6B6B ;
+         }
+         
+         & .btn-custom{
+             background:$btnColor ;
+             color: #FFFFFF;
+             border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            width: 150px;
+            height: 40px;
+            border: none;
+        }
+        }
+       
+    }
+   
+}
+.Illustration-img img{
+    width: 550px;
+    height: 250px;
+    padding-left:185px ;
+
+     @media screen and (max-width:576px){
+
+         width: 400px;
+         height: 200px;
+         padding-left:0px ;
+         padding-top:20px ;
+     }
+      @media screen  and (max-width:992px){
+
+          width: 400px;
+     }
+}

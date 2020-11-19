@@ -1,0 +1,37 @@
+.testimonial{
+
+    & .test-heading{
+         font-size: 50px;
+        font-weight: 700;
+        color: black;
+
+    }
+
+    & .test-details{
+
+        width: 700px;
+        margin:0 auto ;
+
+          @media screen and (max-width:576px){
+            width: 400px;
+            margin: 20px auto;
+        
+           }
+            @media screen and (max-width:992px){
+            width: 500px;
+            margin: 20px auto;
+        
+           }
+
+        & img{
+            width: 150px;
+            height: 100px;
+        }
+
+        & p{
+
+            font-size: 16px;
+            margin-left: 60px;
+        }
+    }
+}
